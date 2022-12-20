@@ -231,6 +231,7 @@ exec --no-startup-id compton -b -f
 #AUTO START
 
 exec --no-startup-id brave-browser
+#exec --no-startup-id i3-msg 'workspace 1; exec brave-browser; workspace 10; exec terminator'
 exec --no-startup-id terminator
 
 #NUIT
@@ -252,5 +253,3 @@ mode "$mode_redshift" {
     bindsym Return mode "default"
     bindsym Escape mode "default"
 }
-
-
